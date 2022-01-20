@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle, css } from "styled-components";
-import Teleprompter from "./Teleprompter";
+import Teleprompter from "../component/Teleprompter";
 
 export const GlobalStyles = createGlobalStyle`
   * {
@@ -13,10 +13,10 @@ export const GlobalStyles = createGlobalStyle`
     font-family: sans-serif;
     margin: 0;
     overflow: hidden;
-    background: linear-gradient(
+    /* background: linear-gradient(
       #9198e5,
       #e66465
-    );
+    ); */
   }
 `;
 
